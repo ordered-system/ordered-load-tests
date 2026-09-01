@@ -181,7 +181,7 @@ ORDER_RESPONSE=$(curl -sf -X POST "$GATEWAY_URL/api/v1/orders" \
           "buildingNumber": "1",
           "city": "Torun",
           "postalCode": "87-100",
-          "country": "Poland"
+          "country": "PL"
         }
       }') || die "order placement failed"
 ORDER_ID=$(extract_json_number id "$ORDER_RESPONSE")
