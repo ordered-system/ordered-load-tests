@@ -1,4 +1,4 @@
-package pl.dybcio.orderedloadtests.gatling;
+package pl.dybcio.ordered.gatling;
 
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
